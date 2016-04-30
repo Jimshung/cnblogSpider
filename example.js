@@ -16,6 +16,7 @@ var ep = new eventproxy(),
 	pageUrls = [],	//存放收集文章页面网站
 	pageNum = 200;	//要爬取文章的页数
 
+//那么，1~200页的列表页 URL 应该是这个样子的：
 for(var i=1 ; i<= 200 ; i++){
 	pageUrls.push('http://www.cnblogs.com/#p'+i);
 }
